@@ -21,8 +21,8 @@ class Dog
     @@all.each {|d| puts "#{d}"}
   end 
 
-  def self.save
-    @@all << @name 
+  def save
+    @@all << self
   end 
 end 
   
